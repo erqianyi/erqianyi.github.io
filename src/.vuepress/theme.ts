@@ -15,11 +15,13 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  // logo: "/logo.svg",
+  logo: "/logo.svg",
+  logoDark: "/logo-w.svg",
 
-  repo: "",
+  repo: "https://github.com/erqianyi/public-share-repo.git",
 
   docsDir: "src",
+
 
   // navbar
   navbar,
@@ -58,6 +60,15 @@ export default hopeTheme({
     //   provider: "Waline",
     //   serverURL: "https://waline-comment.vuejs.press",
     // },
+
+    // 评论
+    comment: {
+      provider: "Giscus",
+      repo: "erqianyi/erqianyi.github.io",
+      repoId: "MDEwOlJlcG9zaXRvcnk4MTA3NjIyNA==",
+      category: "Announcements",
+      categoryId: "DIC_kwDOBNUgAM4CbBt0"
+    },
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {

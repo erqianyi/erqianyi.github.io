@@ -5,8 +5,8 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "2100的个人笔记",
-  description: "2100的个人笔记",
+  title: "",
+  description: "前端,前端个人笔记,前端经验分享,javascript,vue,vuepress,vuepress-theme-hope,css",
 
   theme,
 
