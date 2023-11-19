@@ -34,6 +34,9 @@ export default hopeTheme({
   displayFooter: true,
 
   blog: {
+    avatar: "/avatar.png",
+    roundAvatar: true,
+    name: "二千一",
     description: "一个前端开发者",
     intro: "/intro.html",
     medias: {
@@ -49,6 +52,8 @@ export default hopeTheme({
   // metaLocales: {
   //   editLink: "在 GitHub 上编辑此页",
   // },
+  editLink: false,
+
 
   plugins: {
     blog: true,
