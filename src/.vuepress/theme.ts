@@ -37,7 +37,7 @@ export default hopeTheme({
     avatar: "/avatar.png",
     roundAvatar: true,
     name: "二千一",
-    description: "一个前端开发者",
+    description: "一个前端coder",
     intro: "/intro.html",
     medias: {
       GitHub: "https://github.com/erqianyi",
