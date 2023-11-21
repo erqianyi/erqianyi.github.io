@@ -1,1 +1,44 @@
 // place your custom styles here
+@keyframes kenburns-top{0%{transform:scale(1) translateY(0);transform-origin:50% 16%}100%{transform:scale(1.25) translateY(-15px);transform-origin:top}}
+// 导航栏调整
+.vp-navbar {
+  background: transparent;
+  box-shadow: none;
+}
+.vp-blog-hero {
+  color: #34495e;
+  &.fullscreen {
+    .vp-blog-mask {
+      animation: kenburns-top 3s ease-out both;
+    }
+  }
+}
+.vp-blog-mask::after {
+  background: var(--white);
+  opacity: 0.2;
+}
+
+.theme-container {
+  .vp-page.vp-blog {
+    --navbar-height: 0rem;
+  }
+  .vp-blog-hero-image {
+    height: 5rem;
+  }
+
+  .vp-blog-type-button {
+    .icon-wrapper.active {
+      color: #fff;
+    }
+  }
+}
+
+/* 暗色主题 */ 
+html[data-theme=dark] {
+  .vp-blog-hero {
+    color: #eee;
+  }
+  .vp-blog-mask::after {
+    opacity: 0.5;
+  }
+}

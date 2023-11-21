@@ -25,11 +25,13 @@ export default hopeTheme({
 
   // navbar
   navbar,
+  navbarAutoHide: "always",
 
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: "",
+  copyright: "Copyright © 2019-present 二千一",
 
   displayFooter: true,
 
