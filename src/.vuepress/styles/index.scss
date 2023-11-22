@@ -7,6 +7,7 @@
 }
 .vp-blog-hero {
   color: #34495e;
+  overflow: hidden;
   &.fullscreen {
     .vp-blog-mask {
       animation: kenburns-top 3s ease-out both;
@@ -31,6 +32,11 @@
       color: #fff;
     }
   }
+}
+
+// 纯博客页面，无sidebar
+.blog-content-container.no-sidebar.has-toc .vp-page {
+  padding-inline-end: initial;
 }
 
 /* 暗色主题 */ 

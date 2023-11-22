@@ -3,8 +3,7 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
   "/": [
     "",
-    "intro",
-    "slides",
   ],
-  "/zh/blogs/": "structure"
+  "/zh/blogs/": "structure",
+  "/zh/code-notes": "structure",
 });

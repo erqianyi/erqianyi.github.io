@@ -1,14 +1,12 @@
 ---
 icon: circle-info
 cover: /assets/images/cover3.jpg
-sidebar: false
-breadcrumb: false
-containerClass: blog-content-container
+blog: true
 ---
 
-# 测试页面
+# 测试页面2
 
-博客分组测试页面
+代码笔记测试页面
 
 ## 二级标题1
 
