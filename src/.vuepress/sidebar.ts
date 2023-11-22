@@ -6,4 +6,5 @@ export default sidebar({
     "intro",
     "slides",
   ],
+  "/zh/blogs/": "structure"
 });
