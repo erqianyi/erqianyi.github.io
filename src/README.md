@@ -5,7 +5,7 @@ icon: home
 title: 主页
 heroImage: /logo.svg
 heroImageDark: /logo-w.svg
-heroText: 个人笔记
+heroText: 一个前端菜鸟的自娱自乐
 heroFullScreen: true
 tagline: false
 bgImage: /assets/images/bg-image.jpg
